@@ -11,9 +11,6 @@
 static char readbuf[100], writebuf[100];
 static char kerneldata[] = {"kernel data!!!"};
 
-
-
-
 static ssize_t chrdevbase_read(struct file *filp, __user char *buf, size_t count,
 			loff_t *ppos)
 {
@@ -24,7 +21,6 @@ static ssize_t chrdevbase_read(struct file *filp, __user char *buf, size_t count
 	if(ret ==0){
 
 	}else{
-
 	}
 
 	return 0;
